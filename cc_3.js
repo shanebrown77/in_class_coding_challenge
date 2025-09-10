@@ -7,8 +7,12 @@ let inventory = [
 
     {sku:"SKU-003",name:"midi piano", price: 300,stock:50},
 
-    {sku:"SKU--004",name:"monster energy", price:2.99,stock:100}
+   
     
 ]
 
 inventory.forEach(obj =>console.log(`Name: ${obj.name}`));
+
+newObject = {sku:"SKU--004",name:"monster energy", price:2.99,stock:100}
+inventory.push(newObject)
+console.log(inventory)
